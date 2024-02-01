@@ -1,2 +1,2 @@
-# Web-Dev
-Web Development's discipline laboratory work.
+# Web-Dev repository
+Web Development's discipline lab. works. (please help me)
