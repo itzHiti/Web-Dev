@@ -1,8 +1,9 @@
 .img-here {
-    display: inline-block;
-    width: 10%;
-    height: 10%;
+    display: inline;
+    overflow-x: auto;
 }
 .image-wrapper {
-    margin-right: 10px;
+    margin-right: 5px;
+    width: 15%;
+    height: 15%;
 }
