@@ -1,10 +1,14 @@
 <h1>Products</h1>
 
-<div *ngFor="let product of products" class="shop-items">
+<div *ngFor="let product of products; let i = index" class="shop-items" [ngClass]="{ 'hidden': i !== currentIndex }">
+    <div class="image-container">
+        <div class="image-slider" [@slideImages]="currentIndex">
+                <img [src]="product.imageUrls[currentIndex]" [alt]="product.name" class="image-slide"/>
+        </div>
+    </div>
 
-    <img [src]="product.imageUrl" [alt]="product.name" />
     <h3>
-        <a [title]="product.name + ' details'" [href]="product.itemUrl">
+        <a [title]="product.name + ' details'" [routerLink]="['/products', product.id]">
             {{ product.name }}
         </a>
     </h3>
@@ -25,10 +29,10 @@
             (notify)="onNotify()">
     </app-product-alerts>
 
-</div>
+    <p>
+    <button type="button" (click)="redirectToKaspi(product.itemUrl)">
+        View on Kaspi.kz
+    </button>
+    </p>
 
-<!--
-Copyright Google LLC. All Rights Reserved.
-Use of this source code is governed by an MIT-style license that
-can be found in the LICENSE file at https://angular.io/license
--->
+</div>

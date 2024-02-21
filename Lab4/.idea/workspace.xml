@@ -7,6 +7,7 @@
     <list default="true" id="4d7f50a3-9f38-433a-8bf4-6f090e4928b5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.angular/cache/17.2.0/angular.io-example/.tsbuildinfo" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/17.2.0/angular.io-example/.tsbuildinfo" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/product-list/product-list.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/product-list/product-list.component.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/product-list/product-list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/product-list/product-list.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/product-list/product-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/product-list/product-list.component.ts" afterDir="false" />
@@ -40,6 +41,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JavaScript Debug.Angular Application.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -85,7 +87,7 @@
       <workItem from="1708510668082" duration="2193000" />
       <workItem from="1708519311472" duration="45000" />
       <workItem from="1708519365998" duration="114000" />
-      <workItem from="1708519489271" duration="990000" />
+      <workItem from="1708519489271" duration="9720000" />
     </task>
     <servers />
   </component>
