@@ -34,7 +34,7 @@ export const products = [
         'The battery provides up to 17 hours of video playback and charges 50% in 30 minutes.',
     rating: 2.52,
     itemUrl: 'https://kaspi.kz/shop/p/apple-iphone-13-mini-512gb-chernyi-102298511/?c=750000000',
-    imageUrls: ['https://resources.cdn-kaspi.kz/img/m/p/h92/h80/63998596349982.jpg?format=gallery-large']
+    imageUrls: ['https://resources.cdn-kaspi.kz/img/m/p/h92/h80/63998596349982.jpg?format=gallery-large', 'https://resources.cdn-kaspi.kz/img/m/p/hff/h45/63998599888926.jpg?format=gallery-medium', 'https://resources.cdn-kaspi.kz/img/m/p/h00/hda/63998603231262.jpg?format=gallery-medium']
   },
   {
     id: 3,
@@ -46,7 +46,7 @@ export const products = [
         'Additionally, this model includes two additional side buttons, a pleasant soft-touch coating, and Teflon feet for smoother gliding on any surface.',
     rating: 4.35,
     itemUrl: 'https://kaspi.kz/shop/p/defender-pandora-gm-502-belyi-112644862/?c=750000000&ref=shared_link',
-    imageUrls: ['https://resources.cdn-kaspi.kz/img/m/p/h79/h6b/82928063807518.jpg?format=gallery-large']
+    imageUrls: ['https://resources.cdn-kaspi.kz/img/m/p/h79/h6b/82928063807518.jpg?format=gallery-large', 'https://resources.cdn-kaspi.kz/img/m/p/h44/h86/82928066002974.jpg?format=gallery-medium', 'https://resources.cdn-kaspi.kz/img/m/p/h5f/h79/82928067674142.jpg?format=gallery-medium']
   },
   {
     id: 4,
@@ -55,7 +55,7 @@ export const products = [
     description: 'Samsung Galaxy S22 Ultra 512GB Phantom Black - Experience the power of the new Exynos 2200 processor and an advanced camera system with a 108MP main sensor, 12MP ultra-wide lens, and 10x optical zoom periscope lens. Enjoy smooth multitasking with 12GB of RAM and a vivid 6.8-inch Dynamic AMOLED 2X display. The large 5000mAh battery provides all-day usage, and fast charging gets you back to full power in no time.',
     rating: 4.8,
     itemUrl: 'https://kaspi.kz/shop/p/samsung-galaxy-s22-ultra-12-gb-512-gb-chernyi-103668336/?c=750000000',
-    imageUrls: ['https://resources.cdn-kaspi.kz/img/m/p/h04/h77/64409443794974.jpg?format=gallery-large']
+    imageUrls: ['https://resources.cdn-kaspi.kz/img/m/p/h04/h77/64409443794974.jpg?format=gallery-large', 'https://resources.cdn-kaspi.kz/img/m/p/h62/h32/64409446088734.jpg?format=gallery-medium', 'https://resources.cdn-kaspi.kz/img/m/p/h96/h7e/64409452642334.jpg?format=gallery-medium']
   },
   {
     id: 5,
@@ -64,7 +64,7 @@ export const products = [
     description: 'Sony PlayStation 5 Console - Experience lightning-fast loading with an ultra-high-speed SSD, deeper immersion with support for haptic feedback, adaptive triggers, and 3D Audio, and an all-new generation of incredible PlayStation games.',
     rating: 4.9,
     itemUrl: 'https://kaspi.kz/shop/p/sony-playstation-5-belyi-100746577/?c=750000000',
-    imageUrls: ['https://resources.cdn-kaspi.kz/img/m/p/h02/h59/63948652249118.jpg?format=gallery-large']
+    imageUrls: ['https://resources.cdn-kaspi.kz/img/m/p/h02/h59/63948652249118.jpg?format=gallery-large', 'https://resources.cdn-kaspi.kz/img/m/p/ha3/h00/63948657491998.jpg?format=gallery-medium', 'https://resources.cdn-kaspi.kz/img/m/p/h20/h34/63948659589150.jpg?format=gallery-medium']
   },
   {
     id: 6,
@@ -73,7 +73,7 @@ export const products = [
     description: 'Apple MacBook Pro 14" 512GB M1 Pro Chip - The new MacBook Pro features the powerful M1 Pro chip, delivering groundbreaking performance and incredible battery life. With a stunning 14-inch Liquid Retina XDR display, studio-quality mics, and a new array of ports including HDMI and SDXC, it\'s the ultimate tool for creatives and professionals.',
     rating: 4.7,
     itemUrl: 'https://kaspi.kz/shop/p/apple-macbook-pro-14-mkgp3-seryi-102866247/?c=750000000',
-    imageUrls: ['https://resources.cdn-kaspi.kz/img/m/p/ha3/h9b/64200744763422.jpg?format=gallery-large']
+    imageUrls: ['https://resources.cdn-kaspi.kz/img/m/p/ha3/h9b/64200744763422.jpg?format=gallery-large', 'https://resources.cdn-kaspi.kz/img/m/p/he5/h8b/64200747286558.jpg?format=gallery-medium', 'https://resources.cdn-kaspi.kz/img/m/p/h35/h3f/64200750301214.jpg?format=gallery-medium']
   },
   {
     id: 7,
@@ -81,8 +81,8 @@ export const products = [
     price: 3899,
     description: 'Canon EOS R5 Mirrorless Camera Body - Capture stunning images and cinematic 8K video with the Canon EOS R5. Featuring a 45MP full-frame sensor, 8K RAW video recording, and advanced Dual Pixel CMOS AF II, it\'s the ultimate choice for professional photographers and videographers.',
     rating: Infinity,
-    imageUrls: ['https://resources.cdn-kaspi.kz/img/m/p/h42/h97/64376063229982.jpg?format=gallery-large'],
-    itemUrl: 'https://kaspi.kz/shop/p/canon-eos-r5-body-104692263/?c=750000000'
+    itemUrl: 'https://kaspi.kz/shop/p/canon-eos-r5-body-104692263/?c=750000000',
+    imageUrls: ['https://resources.cdn-kaspi.kz/img/m/p/h42/h97/64376063229982.jpg?format=gallery-large', 'https://resources.cdn-kaspi.kz/img/m/p/hec/hc9/79741249028126.jpg?format=gallery-medium', 'https://resources.cdn-kaspi.kz/img/m/p/h9a/h29/79741249552414.jpg?format=gallery-medium']
   },
   {
     id: 8,
@@ -91,7 +91,7 @@ export const products = [
     description: 'DJI Mavic Air 2 Fly More Combo Drone - Experience the ultimate aerial photography and videography with the DJI Mavic Air 2. Featuring a 1/2-inch CMOS sensor, 48MP photos, 4K video at 60fps, and a 34-minute flight time, it\'s the perfect tool for capturing breathtaking moments from above.',
     rating: 4.8,
     itemUrl: 'https://kaspi.kz/shop/p/dji-mavic-air-2-fly-more-combo-seryi-100302906/?c=750000000',
-    imageUrls: ['https://resources.cdn-kaspi.kz/img/m/p/h2d/h99/63938263679006.jpg?format=gallery-large']
+    imageUrls: ['https://resources.cdn-kaspi.kz/img/m/p/h2d/h99/63938263679006.jpg?format=gallery-large', 'https://resources.cdn-kaspi.kz/img/m/p/h75/h5e/63938267217950.jpg?format=gallery-medium', 'https://resources.cdn-kaspi.kz/img/m/p/h70/hab/63938272952350.jpg?format=gallery-medium']
   },
   {
     id: 9,
@@ -100,7 +100,7 @@ export const products = [
     description: '[16K ULTRA-HYPER HD PICTURE QUALITY BY KASPI.KZ] LG OLED65C1PUB 65" 4K OLED Smart TV - Immerse yourself in stunning picture quality and cinematic sound with the LG OLED65C1PUB. Featuring a 65-inch OLED display, Dolby Vision IQ, Dolby Atmos, and webOS smart platform, it delivers an unparalleled viewing experience for movies, games, and more.',
     rating: 4.9,
     itemUrl: 'https://kaspi.kz/shop/p/lg-oled65g3rla-165-sm-chernyi-112414590/?c=750000000',
-    imageUrls: ['https://resources.cdn-kaspi.kz/img/m/p/h03/h16/82632103067678.jpg?format=gallery-large']
+    imageUrls: ['https://resources.cdn-kaspi.kz/img/m/p/h03/h16/82632103067678.jpg?format=gallery-large', 'https://resources.cdn-kaspi.kz/img/m/p/h7b/hdf/82632104116254.jpg?format=gallery-medium', 'https://resources.cdn-kaspi.kz/img/m/p/hd9/h57/82632105689118.jpg?format=gallery-medium']
   },
   {
     id: 10,
@@ -109,7 +109,7 @@ export const products = [
     description: 'Samsung Galaxy Watch 4 Classic 46mm - Stay connected and stylish with the Samsung Galaxy Watch 4 Classic. Featuring a classic design with a rotating bezel, it offers advanced health monitoring, fitness tracking, and seamless integration with your Samsung Galaxy devices. With up to 5 days of battery life and IP68 water resistance, it\'s the perfect companion for your active lifestyle.',
     rating: 4.7,
     itemUrl: 'https://kaspi.kz/shop/p/samsung-galaxy-watch-4-classic-sm-r890nzkacis-46-mm-chernyi-chernyi-102170938/?c=750000000',
-    imageUrls: ['https://resources.cdn-kaspi.kz/img/m/p/hc9/h47/64342261268510.jpg?format=gallery-large']
+    imageUrls: ['https://resources.cdn-kaspi.kz/img/m/p/hc9/h47/64342261268510.jpg?format=gallery-large', 'https://resources.cdn-kaspi.kz/img/m/p/he7/h54/64342263889950.jpg?format=gallery-medium', 'https://resources.cdn-kaspi.kz/img/m/p/hce/hf5/64342269657118.jpg?format=gallery-medium']
   }
 ];
 

@@ -31,6 +31,9 @@ export class ProductListComponent implements OnInit {
   slideImages() {
     setInterval(() => {
       this.currentIndex = (this.currentIndex + 1) % this.products.length;
+      if (this.currentIndex === 2) {
+        this.currentIndex = 0; // Reset index to 0 when it reaches 2
+      }
     }, 6000); // Adjust the interval as needed
   }
 
