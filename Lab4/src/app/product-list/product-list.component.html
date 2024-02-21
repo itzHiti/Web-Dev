@@ -1,18 +1,22 @@
-<h2>Products</h2>
+<h1>Products</h1>
 
-<div *ngFor="let product of products">
+<div *ngFor="let product of products" class="shop-items">
 
+    <img [src]="product.imageUrl" [alt]="product.name" />
     <h3>
-        <a [title]="product.name + ' details'">
+        <a [title]="product.name + ' details'" [href]="product.itemUrl">
             {{ product.name }}
         </a>
     </h3>
 
     <p *ngIf="product.description">
-        Description: {{ product.description }}
+        <u><b>Description</b></u>: {{ product.description }}
+    </p>
+    <p>
+        Price: {{ product.price | currency }}
     </p>
 
-    <button type="button" (click)="share()">
+    <button type="button" (click)="share(product)">
         Share
     </button>
 
@@ -23,7 +27,7 @@
 
 </div>
 
-<!-- 
+<!--
 Copyright Google LLC. All Rights Reserved.
 Use of this source code is governed by an MIT-style license that
 can be found in the LICENSE file at https://angular.io/license

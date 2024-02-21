@@ -5,30 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4d7f50a3-9f38-433a-8bf4-6f090e4928b5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.stackblitzrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/app.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/app.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/app.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/product-alerts/product-alerts.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/product-alerts/product-alerts.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/product-alerts/product-alerts.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/product-alerts/product-alerts.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/product-list/product-list.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/product-list/product-list.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/product-list/product-list.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/products.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/top-bar/top-bar.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/top-bar/top-bar.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/top-bar/top-bar.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/shipping.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsconfig.app.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.angular/cache/17.2.0/angular.io-example/.tsbuildinfo" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/17.2.0/angular.io-example/.tsbuildinfo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/product-list/product-list.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/product-list/product-list.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/product-list/product-list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/product-list/product-list.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/product-list/product-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/product-list/product-list.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/products.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/products.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/top-bar/top-bar.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/top-bar/top-bar.component.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,12 +21,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/app/product-list/product-list.component.css" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2cZOV2KsUlBi1PTO2Wlf2O4hxgz" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -62,6 +51,7 @@
     "nodejs_interpreter_path": "node",
     "nodejs_package_manager_path": "npm",
     "npm.Angular CLI Server.executor": "Run",
+    "settings.editor.selected.configurable": "me.rerere.discordij.setting.DiscordIJConfigurableProject",
     "ts.external.directory.path": "C:\\Users\\Hiti\\Desktop\\docs\\kbtu related\\Web-Dev\\Lab4\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
@@ -90,6 +80,12 @@
       <option name="presentableId" value="Default" />
       <updated>1708315655297</updated>
       <workItem from="1708315657128" duration="2053000" />
+      <workItem from="1708502380449" duration="1367000" />
+      <workItem from="1708510497600" duration="134000" />
+      <workItem from="1708510668082" duration="2193000" />
+      <workItem from="1708519311472" duration="45000" />
+      <workItem from="1708519365998" duration="114000" />
+      <workItem from="1708519489271" duration="990000" />
     </task>
     <servers />
   </component>

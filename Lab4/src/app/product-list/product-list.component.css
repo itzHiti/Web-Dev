@@ -1,4 +1,17 @@
-
+.shop-items {
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    width: 300px;
+    vertical-align: top;
+    flex: 1 1 300px;
+}
+.shop-items img {
+    width: 200px;
+    height: 300px;
+}
 
 /*
 Copyright Google LLC. All Rights Reserved.

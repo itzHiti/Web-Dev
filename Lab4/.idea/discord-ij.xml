@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DiscordIJSettingProjectState">
+    <option name="displayMode" value="IDE" />
+    <option name="fileDetailFormat" value="%projectName%[%branch%] - %fileProblems% проблем" />
+    <option name="fileStateFormat" value="Редактирует файл: %fileName%" />
+    <option name="projectDetailFormat" value="%projectProblems% проблем в проекте" />
+    <option name="projectStateFormat" value="Работает над проектом: %projectName%" />
+  </component>
+</project>
