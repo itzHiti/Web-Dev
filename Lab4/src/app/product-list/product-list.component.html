@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <h1>Products</h1>
 
 <div *ngFor="let product of products; let i = index" class="shop-items" [ngClass]="{ 'hidden': i !== currentIndex }">
@@ -18,6 +19,10 @@
     </p>
     <p>
         Price: {{ product.price | currency }}
+    </p>
+    <p class="star-rating">
+        <i class="fa fa-star" aria-hidden="true" *ngFor="let star of getStars(product)"></i>
+        <i class="fa fa-star-half" aria-hidden="true" *ngIf="product.rating % 1 !== 0"></i>
     </p>
 
     <button type="button" (click)="share(product)">

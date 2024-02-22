@@ -61,6 +61,11 @@ export class ProductListComponent implements OnInit {
   redirectToKaspi(url: string) {
     window.location.href = url;
   }
+
+  getStars(product: any) {
+    return Array(Math.floor(product.rating)).fill(0);
+  }
+
 }
 
 /*

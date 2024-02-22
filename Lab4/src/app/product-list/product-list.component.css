@@ -23,6 +23,11 @@
     transition: transform 0.5s ease;
 }
 
+.star-rating {
+    font-size: 2em;
+    color: #ffc107;
+}
+
 /*
 Copyright Google LLC. All Rights Reserved.
 Use of this source code is governed by an MIT-style license that

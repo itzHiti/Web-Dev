@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4d7f50a3-9f38-433a-8bf4-6f090e4928b5" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.angular/cache/17.2.0/angular.io-example/.tsbuildinfo" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/17.2.0/angular.io-example/.tsbuildinfo" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/product-details/product-details.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/product-details/product-details.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/product-list/product-list.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/product-list/product-list.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/product-list/product-list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/product-list/product-list.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/product-list/product-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/product-list/product-list.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,25 +36,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JavaScript Debug.Angular Application.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_interpreter_path": "node",
-    "nodejs_package_manager_path": "npm",
-    "npm.Angular CLI Server.executor": "Run",
-    "settings.editor.selected.configurable": "me.rerere.discordij.setting.DiscordIJConfigurableProject",
-    "ts.external.directory.path": "C:\\Users\\Hiti\\Desktop\\docs\\kbtu related\\Web-Dev\\Lab4\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JavaScript Debug.Angular Application.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.Angular CLI Server.executor&quot;: &quot;Run&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;me.rerere.discordij.setting.DiscordIJConfigurableProject&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\Hiti\\Desktop\\docs\\kbtu related\\Web-Dev\\Lab4\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="npm.Angular CLI Server">
     <configuration name="Angular Application" type="JavascriptDebugType" uri="http://localhost:4200">
       <method v="2" />
@@ -81,7 +84,8 @@
       <workItem from="1708510668082" duration="2193000" />
       <workItem from="1708519311472" duration="45000" />
       <workItem from="1708519365998" duration="114000" />
-      <workItem from="1708519489271" duration="10389000" />
+      <workItem from="1708519489271" duration="10430000" />
+      <workItem from="1708584318539" duration="1368000" />
     </task>
     <servers />
   </component>
