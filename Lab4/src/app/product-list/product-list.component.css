@@ -7,6 +7,8 @@
     width: 300px;
     vertical-align: top;
     flex: 1 1 300px;
+    margin-left: 50px;
+    margin-top: 20px;
 }
 
 .shop-items img {
@@ -26,6 +28,11 @@
 .star-rating {
     font-size: 2em;
     color: #ffc107;
+}
+.category-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
 }
 
 /*

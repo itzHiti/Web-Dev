@@ -1,6 +1,7 @@
-import { Component, OnInit } from '@angular/core';
-import { products } from '../products';
+import {Component, Input, OnInit} from '@angular/core';
+import {Product, products} from '../products';
 import { trigger, transition, animate, style } from '@angular/animations';
+import { categories, Category } from "../categories";
 
 @Component({
   selector: 'app-product-list',
@@ -17,10 +18,17 @@ import { trigger, transition, animate, style } from '@angular/animations';
     ])
   ]
 })
+
 export class ProductListComponent implements OnInit {
   products = [...products];
   currentIndex = 0;
   currentProduct: any;
+  categories: Category[] = categories;
+  selectedCategory: Category | null = null;
+
+  onSelectCategory(category: Category) {
+    this.selectedCategory = category;
+  }
 
   constructor() {}
 
@@ -31,10 +39,10 @@ export class ProductListComponent implements OnInit {
   slideImages() {
     setInterval(() => {
       this.currentIndex = (this.currentIndex + 1) % this.products.length;
-      if (this.currentIndex === 2) {
-        this.currentIndex = 0; // Reset index to 0 when it reaches 2
+      if (this.currentIndex === 3) {
+        this.currentIndex = 0; // <- to reset index to 0 when it reaches 3 (the last index is 2)
       }
-    }, 6000); // Adjust the interval as needed
+    }, 5000); // 1s = 1000
   }
 
   share(product: any) {
@@ -64,6 +72,21 @@ export class ProductListComponent implements OnInit {
 
   getStars(product: any) {
     return Array(Math.floor(product.rating)).fill(0);
+  }
+
+  onLike(product: Product) {
+    // @ts-ignore
+    const index = this.selectedCategory.products.findIndex(p => p.id === product.id);
+    if (index !== -1) {
+      // @ts-ignore
+      this.selectedCategory.products[index].likes++;
+    }
+    // In a real application, you might also want to update the likes in the database
+  }
+
+  onRemove(productId: number) {
+    // @ts-ignore
+    this.selectedCategory.products = this.selectedCategory.products.filter(product => product.id !== productId);
   }
 
 }

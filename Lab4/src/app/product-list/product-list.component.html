@@ -1,43 +1,52 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <h1>Products</h1>
 
-<div *ngFor="let product of products; let i = index" class="shop-items" [ngClass]="{ 'hidden': i !== currentIndex }">
-    <div class="image-container">
-        <div class="image-slider" [@slideImages]="currentIndex">
+<div *ngFor="let category of categories">
+    <button (click)="onSelectCategory(category)" class="category-container">{{ category.name }}</button>
+</div>
+
+<div *ngIf="selectedCategory">
+    <h2>{{ selectedCategory.name }}</h2>
+    <div *ngFor="let product of selectedCategory.products" class="shop-items">
+        <div class="image-container">
+            <div class="image-slider" [@slideImages]="currentIndex">
                 <img [src]="product.imageUrls[currentIndex]" [alt]="product.name" class="image-slide"/>
+            </div>
         </div>
-    </div>
 
-    <h3>
-        <a [title]="product.name + ' details'" [routerLink]="['/products', product.id]">
-            {{ product.name }}
+        <h3>
+            <a [title]="product.name + ' details'" [routerLink]="['/products', product.id]">
+                {{ product.name }}
+            </a>
+        </h3>
+
+        <p *ngIf="product.description">
+            <u><b>Description</b></u>: {{ product.description }}
+        </p>
+        <p>
+            Price: {{ product.price | currency }}
+        </p>
+        <p class="star-rating">
+            <i class="fa fa-star" aria-hidden="true" *ngFor="let star of getStars(product)"></i>
+            <i class="fa fa-star-half" aria-hidden="true" *ngIf="product.rating % 1 !== 0"></i>
+        </p>
+        <a class="likes-rating" (click)="onLike(product)">
+            <i class="fa fa-thumbs-up" aria-hidden="true"></i> {{ product.likes }}
         </a>
-    </h3>
 
-    <p *ngIf="product.description">
-        <u><b>Description</b></u>: {{ product.description }}
-    </p>
-    <p>
-        Price: {{ product.price | currency }}
-    </p>
-    <p class="star-rating">
-        <i class="fa fa-star" aria-hidden="true" *ngFor="let star of getStars(product)"></i>
-        <i class="fa fa-star-half" aria-hidden="true" *ngIf="product.rating % 1 !== 0"></i>
-    </p>
+        <button type="button" (click)="share(product)">
+            Share
+        </button>
 
-    <button type="button" (click)="share(product)">
-        Share
-    </button>
+        <app-product-alerts
+                [product]="product"
+                (notify)="onNotify()">
+        </app-product-alerts>
 
-    <app-product-alerts
-            [product]="product"
-            (notify)="onNotify()">
-    </app-product-alerts>
-
-    <p>
-    <button type="button" (click)="redirectToKaspi(product.itemUrl)">
-        View on Kaspi.kz
-    </button>
-    </p>
-
+        <p>
+            <button type="button" (click)="redirectToKaspi(product.itemUrl)">
+                View on Kaspi.kz
+            </button>
+        </p>
+    </div>
 </div>
