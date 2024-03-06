@@ -1,0 +1,14 @@
+body {
+  background-color: white;
+}
+.albums{
+  padding: 10px;
+  margin-left: 370px;
+  font-size: 30px;
+}
+#icon{
+  margin-left: 5px;
+}
+#icon2{
+  margin-left: 5px;
+}

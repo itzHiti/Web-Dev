@@ -1,0 +1,16 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<div class="album-detail">
+  <input id="input" value="{{data.title}}">
+  <button type="button" (click)="save()"style="margin-left:10px">Save</button>
+  <button type="button" (click)="return()"style="margin-left:10px">Return back</button>
+
+  <div style="margin-top:10px">Id: {{data.id}}</div>
+  <div style="margin-top:10px">Title: {{data.title}}</div>
+  <div style="margin-top:10px">User: {{data.userId}}</div>
+  <a class="avx" [routerLink]="['/albums', data.id, 'photos' ]">Go to Photos</a>
+  <br>
+  <a class="avx" [routerLink]="['/albums']">Go back</a>
+  <br>
+  <a class="hh avx" routerLink="/home" routerLinkActive="active" ariaCurrentWhenActive="page">Home</a>
+  <i id="icon" class="fa fa-home" aria-hidden="true"></i>
+</div>

@@ -4,5 +4,5 @@
     <p>Price: {{ product.price }}</p>
     <p>Likes: {{ product.likes }}</p>
     <button (click)="increaseLikes()" style="margin-right: 10px;">Like</button>
-    <button (click)="removeProduct()" style="margin-right: 10px;">Remove</button>
+    <button (click)="removeProduct(product)" style="margin-right: 10px;">Remove</button>
 </div>

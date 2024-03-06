@@ -25,6 +25,7 @@ export class ProductListComponent implements OnInit {
   currentProduct: any;
   categories: Category[] = categories;
   selectedCategory: Category | null = null;
+  isLiked: boolean = false; // to avoid errors
 
   onSelectCategory(category: Category) {
     this.selectedCategory = category;
@@ -78,8 +79,17 @@ export class ProductListComponent implements OnInit {
     // @ts-ignore
     const index = this.selectedCategory.products.findIndex(p => p.id === product.id);
     if (index !== -1) {
-      // @ts-ignore
-      this.selectedCategory.products[index].likes++;
+      if (!(this.isLiked)) {
+        this.isLiked = true;
+        // to avoid errors
+        // @ts-ignore
+        this.selectedCategory.products[index].likes++;
+      }
+      else {
+        this.isLiked = false;
+        // @ts-ignore
+        this.selectedCategory.products[index].likes--;
+      }
     }
     // In a real application, you might also want to update the likes in the database
   }

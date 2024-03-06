@@ -1,0 +1,24 @@
+.about-page{
+  margin-top: 150px;
+  text-align: center;
+  font-size: 60px;
+}
+.f2{
+  margin-left: 70px;
+}
+#icon{
+  margin-left: 10px;
+}
+#icon2{
+  margin-left: 10px;
+}
+#icon3{
+  margin-left: 10px;
+}
+.about-text {
+  margin-top: 50px;
+  font-size: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align: center;
+}

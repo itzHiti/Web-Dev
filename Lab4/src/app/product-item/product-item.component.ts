@@ -1,5 +1,5 @@
-import {Component, EventEmitter, Input, Output} from '@angular/core';
-import {Product, products} from '../products';
+import { Component, EventEmitter, Input, Output } from '@angular/core';
+import { Product } from '../products';
 
 @Component({
   selector: 'app-product-item',
@@ -10,13 +10,22 @@ export class ProductItemComponent {
   @Input() product!: Product;
   @Output() like = new EventEmitter<Product>();
   @Output() remove = new EventEmitter<number>();
+  isLiked: boolean = false;
 
   increaseLikes() {
-    this.product.likes++;
+    if (!(this.isLiked)) {
+      this.isLiked = true;
+      this.product.likes++;
+    }
+    else {
+      this.isLiked = false;
+      this.product.likes--;
+    }
     this.like.emit(this.product);
   }
 
-  removeProduct() {
-    this.remove.emit(this.product.id);
+  removeProduct(product: any) {
+    console.log('Remove button clicked'); // log
+    this.remove.emit(product.id);
   }
 }
